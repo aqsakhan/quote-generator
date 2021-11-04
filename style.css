@@ -102,6 +102,25 @@ button:active {
     100% { transform: rotate(360deg); }
 }
 
+.footer-section {
+    position: absolute;
+    bottom: 0.5rem;
+    word-spacing: 4px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    word-spacing: 0;
+}
+
+.footer-section a:hover {
+    color: #000;
+    cursor: pointer;
+}
+
 /* Media queries: Tablet or smaller */
 @media screen and (max-width: 1000px) {
     .quote-container {
